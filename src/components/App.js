@@ -14,7 +14,6 @@ class App extends React.Component {
           '563492ad6f9170000100000187275864ed6e4061960305d551c76f5a',
       },
     })
-    console.log(imageData.data)
     this.setState({ imageData: imageData.data.photos })
   }
 
