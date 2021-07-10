@@ -1,3 +1,4 @@
+import './ImageList.css'
 import React from 'react'
 import ImageCard from './ImageCard'
 
@@ -6,7 +7,7 @@ const ImageList = (props) => {
     <ImageCard key={image.id} src={image.src.large} />
   ))
 
-  return <div>{images}</div>
+  return <div id="image-list">{images}</div>
 }
 
 export default ImageList

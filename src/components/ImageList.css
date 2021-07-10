@@ -1,0 +1,23 @@
+body {
+  background-color: #212121;
+}
+
+#image-list {
+  column-count: 3;
+  column-gap: 5px;
+}
+
+#image-list img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  #image-list {
+    column-count: 2;
+  }
+}
+@media (max-width: 991px) {
+  #image-list {
+    column-count: 1;
+  }
+}
